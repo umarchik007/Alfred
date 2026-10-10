@@ -4,7 +4,7 @@ from telebot.types import *
 import buttons
 import databse
 
-bot = telebot.TeleBot('7538042011:AAE7jZYUjdugSZA0PSvNY5X9SoVbluvBfPw')
+bot = telebot.TeleBot('Bot token')
 
 @bot.message_handler(commands=['start'])
 def starting_def(message):
